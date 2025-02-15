@@ -9,4 +9,5 @@ build/
 # FVM Version Cache
 .fvm/
 .idea/*
+.settings/*
 *.iml
