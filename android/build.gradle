@@ -26,6 +26,7 @@ android {
     if (project.android.hasProperty("namespace")) {
         namespace 'com.example.flutter_video_info'
     }
+
     compileSdkVersion 35
 
     defaultConfig {
@@ -33,6 +34,7 @@ android {
         targetSdkVersion 35
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
     lintOptions {
         disable 'InvalidPackage'
     }

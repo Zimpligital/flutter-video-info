@@ -29,7 +29,7 @@ public class FlutterVideoInfoPlugin implements FlutterPlugin, MethodCallHandler 
 
     @Override
     public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
-        channel = new MethodChannel(binding.getBinaryMessenger(), "flutter_video_info");
+        channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "flutter_video_info");
         channel.setMethodCallHandler(new FlutterVideoInfoPlugin());
         context = flutterPluginBinding.getApplicationContext();
     }
