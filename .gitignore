@@ -8,4 +8,5 @@ build/
 
 # FVM Version Cache
 .fvm/
-.idea/
+.idea/*
+*.iml
